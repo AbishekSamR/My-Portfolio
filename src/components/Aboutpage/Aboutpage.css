@@ -1,0 +1,136 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  padding: 40px;
+  color: #485550;
+}
+
+.about-header h1,
+.about-header p {
+  text-align: center;
+}
+
+.about-header h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.about-header p {
+  font-size: 20px;
+}
+
+.about-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  text-align: left;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #485550;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  height: 150px;
+  width: 600px;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #f4f6f0;
+}
+
+.about-cards:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(1.1);
+}
+
+.about-cards:hover .card-image {
+  transform: scale(1.2);
+}
+
+.card-image {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.about-card-text {
+  padding: 10px;
+}
+
+.about-card-text h3 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 20px;
+    height: auto;
+  }
+
+  .about-header h1 {
+    font-size: 28px;
+  }
+
+  .about-header p {
+    font-size: 16px;
+  }
+
+  .about-cards {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .card-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-card-text {
+    padding: 5px;
+  }
+
+  .about-card-text h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header h1 {
+    font-size: 24px;
+  }
+
+  .about-cards {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .card-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about-card-text h3 {
+    font-size: 16px;
+  }
+
+  .about-card-text p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,14 @@
+/* .app {
+  display: grid;
+  grid-template-rows: 75px auto;
+  min-height: 100vh;
+  background-color: #f4f6f0;
+} */
+
+.app {
+  background-color: #f4f6f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}

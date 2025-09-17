@@ -1,0 +1,81 @@
+.app-header {
+  background-color: #485550;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #f4f6f0;
+  margin-left: 60px;
+  margin-right: 40px;
+  border-radius: 0 0 40px 40px;
+}
+
+.header {
+  padding-left: 40px;
+  font-size: 25px;
+}
+
+.app-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 60px;
+  font-size: 20px;
+}
+
+.app-nav a {
+  text-decoration: none;
+  color: inherit;
+  display: inline;
+  padding: 0;
+  transition: color 0.3s;
+}
+
+.home:hover,
+.about:hover,
+.project:hover,
+.contact:hover {
+  color: #9dd728;
+  border-bottom: 3px solid #9dd728;
+}
+
+.menu-icon {
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .app-nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: auto;
+    width: 220px;
+    background-color: #628678;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 0 0 40px 0;
+    padding: 80px 20px;
+    font-size: 18px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .app-nav.open {
+    left: 0;
+    width: 40%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
