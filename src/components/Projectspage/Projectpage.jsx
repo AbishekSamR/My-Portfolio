@@ -29,6 +29,7 @@ const Projectpage = () => {
           target="_blank"
           className="project-card"
         >
+          <p className="project-card-heading">Google Stock Price Prediction</p>
           <img
             src={StockPrediction}
             alt="Stock Price Prediction"
@@ -43,6 +44,7 @@ const Projectpage = () => {
           target="_blank"
           className="project-card"
         >
+          <p className="project-card-heading">Customer Chum Prediction</p>
           <img
             src={CustomerPrediction}
             alt="Customer Chum Prediction"
@@ -57,6 +59,7 @@ const Projectpage = () => {
           target="_blank"
           className="project-card"
         >
+          <p className="project-card-heading">MovieManiac</p>
           <img
             src={MovieManiac}
             alt="Movie Maniac"
@@ -71,6 +74,7 @@ const Projectpage = () => {
           target="_blank"
           className="project-card"
         >
+          <p className="project-card-heading">Task Finder</p>
           <img src={TaskTrek} alt="Task Finder" className="project-images" />
           <div className="project-overlay">
             <p>Click to view the project</p>
@@ -81,6 +85,7 @@ const Projectpage = () => {
           target="_blank"
           className="project-card"
         >
+          <p className="project-card-heading">Rock Paper Scissor Game</p>
           <img src={RPS} alt="Rock Paper Scissor" className="project-images" />
           <div className="project-overlay">
             <p>Click to view the project</p>

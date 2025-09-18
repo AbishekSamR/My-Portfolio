@@ -54,6 +54,9 @@
   display: inline-block;
   overflow: hidden;
   border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
 }
 
 .project-card img {
@@ -95,6 +98,10 @@
 .project-card:hover img {
   transform: scale(1.05);
   opacity: 0.3;
+}
+
+.project-card:hover {
+  font-weight: 600;
 }
 
 /* .project-buttons-container {
@@ -239,6 +246,9 @@
     width: 100%;
     font-size: 15px;
     padding: 0 10px 0;
+  }
+  .project-card {
+    margin-bottom: 20px;
   }
 
   .project-card img {

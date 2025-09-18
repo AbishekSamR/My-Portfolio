@@ -71,7 +71,7 @@
 /* 📱 Mobile screens */
 @media (max-width: 600px) {
   .profile-pic {
-    width: 220px;
+    width: 230px;
   }
 
   .hello {
@@ -84,5 +84,6 @@
 
   .home-page {
     padding: 20px 10px;
+    margin: 100px 0;
   }
 }
