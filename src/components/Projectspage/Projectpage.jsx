@@ -5,6 +5,7 @@ import CustomerPrediction from "../../assets/CustomerChumPrediction.jpg";
 import MovieManiac from "../../assets/MovieManiac.png";
 import RPS from "../../assets/RockPaperScissors.jpg";
 import TaskTrek from "../../assets/TaskTrek.jpg";
+import CartWish from "../../assets/cartWish.png";
 
 const Projectpage = () => {
   return (
@@ -33,6 +34,21 @@ const Projectpage = () => {
           <img
             src={StockPrediction}
             alt="Stock Price Prediction"
+            className="project-images"
+          />
+          <div className="project-overlay">
+            <p>Click to view the project</p>
+          </div>
+        </a>
+        <a
+          href="https://cartwishstore.netlify.app"
+          target="_blank"
+          className="project-card"
+        >
+          <p className="project-card-heading">Ecommerce Website</p>
+          <img
+            src={CartWish}
+            alt="CartWish Home Page"
             className="project-images"
           />
           <div className="project-overlay">
