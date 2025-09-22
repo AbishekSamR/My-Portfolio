@@ -4,7 +4,7 @@ import Linkedin from "../../assets/linkedin.png";
 import Github from "../../assets/github.png";
 import Phone from "../../assets/telephone.png";
 import Mail from "../../assets/mail.png";
-import Resume from "../../assets/AbishekSam_Resume.pdf";
+import Resume from "../../assets/AbishekSam_Resume-Sept2025.pdf";
 import emailjs from "@emailjs/browser";
 import Arrow from "../../assets/arrow.png";
 
