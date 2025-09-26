@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Header.css";
 import Menu from "../../assets/menu.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,7 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <div id="app-header" className="app-header" ref={menuRef}>
+    <div id="header" className="app-header" ref={menuRef}>
       <header className="header">Portfolio</header>
       <img
         src={Menu}
