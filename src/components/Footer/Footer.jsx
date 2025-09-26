@@ -13,7 +13,7 @@ const Footer = () => {
         <span>|</span>
         <a href="#about">About</a>
         <span>|</span>
-        <a href="#projects">Projects</a>
+        <a href="#project">Projects</a>
         <span>|</span>
         <a href="#contact">Contact</a>
       </div>
