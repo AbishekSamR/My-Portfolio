@@ -6,6 +6,7 @@ import MovieManiac from "../../assets/MovieManiac.png";
 import RPS from "../../assets/RockPaperScissors.jpg";
 import TaskTrek from "../../assets/TaskTrek.jpg";
 import CartWish from "../../assets/cartWish.png";
+import QuickBlog from "../../assets/QuickBlog_HomePage.png";
 
 const Projectpage = () => {
   return (
@@ -26,6 +27,17 @@ const Projectpage = () => {
       </div> */}
       <div className="project-images-container">
         <a
+          href="https://taskfinder.netlify.app"
+          target="_blank"
+          className="project-card"
+        >
+          <p className="project-card-heading">Task Finder</p>
+          <img src={TaskTrek} alt="Task Finder" className="project-images" />
+          <div className="project-overlay">
+            <p>Click to view the project</p>
+          </div>
+        </a>
+        <a
           href="https://colab.research.google.com/drive/1JCXuT_H-cOiHz2_v84ddtpodO1BmNH7q?usp=sharing"
           target="_blank"
           className="project-card"
@@ -36,6 +48,47 @@ const Projectpage = () => {
             alt="Stock Price Prediction"
             className="project-images"
           />
+          <div className="project-overlay">
+            <p>Click to view the project</p>
+          </div>
+        </a>
+        <a
+          href="https://moviecmaniaccentral.netlify.app"
+          target="_blank"
+          className="project-card"
+        >
+          <p className="project-card-heading">MovieManiac</p>
+          <img
+            src={MovieManiac}
+            alt="Movie Maniac"
+            className="project-images"
+          />
+          <div className="project-overlay">
+            <p className="image-black">Click to view the project</p>
+          </div>
+        </a>
+        <a
+          href="https://colab.research.google.com/drive/1J5B_qas1zwsH08VjgQo6vv8jbD-BXfXA?usp=sharing"
+          target="_blank"
+          className="project-card"
+        >
+          <p className="project-card-heading">Customer Chum Prediction</p>
+          <img
+            src={CustomerPrediction}
+            alt="Customer Chum Prediction"
+            className="project-images"
+          />
+          <div className="project-overlay">
+            <p>Click to view the project</p>
+          </div>
+        </a>
+        <a
+          href="https://rockpaperscissorsarena.netlify.app"
+          target="_blank"
+          className="project-card"
+        >
+          <p className="project-card-heading">Rock Paper Scissor Game</p>
+          <img src={RPS} alt="Rock Paper Scissor" className="project-images" />
           <div className="project-overlay">
             <p>Click to view the project</p>
           </div>
@@ -55,54 +108,18 @@ const Projectpage = () => {
             <p>Click to view the project</p>
           </div>
         </a>
+
         <a
-          href="https://colab.research.google.com/drive/1J5B_qas1zwsH08VjgQo6vv8jbD-BXfXA?usp=sharing"
+          href="https://quick-blog-ochre-one.vercel.app"
           target="_blank"
           className="project-card"
         >
-          <p className="project-card-heading">Customer Chum Prediction</p>
+          <p className="project-card-heading">AI Integrated Blog Website</p>
           <img
-            src={CustomerPrediction}
-            alt="Customer Chum Prediction"
+            src={QuickBlog}
+            alt="Rock Paper Scissor"
             className="project-images"
           />
-          <div className="project-overlay">
-            <p>Click to view the project</p>
-          </div>
-        </a>
-        <a
-          href="https://moviecmaniaccentral.netlify.app/"
-          target="_blank"
-          className="project-card"
-        >
-          <p className="project-card-heading">MovieManiac</p>
-          <img
-            src={MovieManiac}
-            alt="Movie Maniac"
-            className="project-images"
-          />
-          <div className="project-overlay">
-            <p className="image-black">Click to view the project</p>
-          </div>
-        </a>
-        <a
-          href="https://taskfinder.netlify.app/"
-          target="_blank"
-          className="project-card"
-        >
-          <p className="project-card-heading">Task Finder</p>
-          <img src={TaskTrek} alt="Task Finder" className="project-images" />
-          <div className="project-overlay">
-            <p>Click to view the project</p>
-          </div>
-        </a>
-        <a
-          href="https://rockpaperscissorsarena.netlify.app/"
-          target="_blank"
-          className="project-card"
-        >
-          <p className="project-card-heading">Rock Paper Scissor Game</p>
-          <img src={RPS} alt="Rock Paper Scissor" className="project-images" />
           <div className="project-overlay">
             <p>Click to view the project</p>
           </div>

@@ -61,8 +61,8 @@ const Aboutpage = () => {
             <h3>Web Development</h3>
             <p>
               Experienced in ReactJS, I have built dynamic web applications like
-              MovieManiac, integrating interactive features and real-time data
-              for better user experience.
+              MovieManiac, integrating APIs and databases like MongoDB and MySQL
+              for real-time data-driven web apps.
             </p>
           </div>
         </div>
@@ -72,7 +72,9 @@ const Aboutpage = () => {
             <h3>Tools</h3>
             <p>
               Experienced in using Visual Studio Code, Figma (UI design), Google
-              Colab, Oracle SQL+, and MySQL for development and project work
+              Colab, Oracle SQL+, MySQL, and MongoDB for development and project
+              work. Proficient in utilizing these tools to streamline
+              development.
             </p>
           </div>
         </div>
